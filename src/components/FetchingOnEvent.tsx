@@ -11,7 +11,7 @@ type Status = "idle" | "loading" | "success" | "error";
 
 const TODOS_API_URL = "https://jsonplaceholder.typicode.com/todos";
 
-const FetchingOnEvents = () => {
+const FetchingOnEvent = () => {
   const [todos, setTodos] = React.useState<Todo[]>([]);
   const [status, setStatus] = React.useState<Status>("idle");
   const [error, setError] = React.useState<string | null>(null);
@@ -55,4 +55,4 @@ const FetchingOnEvents = () => {
   );
 };
 
-export default FetchingOnEvents;
+export default FetchingOnEvent;

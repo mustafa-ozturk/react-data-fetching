@@ -1,10 +1,12 @@
 import "./App.css";
-import FetchingOnEvents from "./components/FetchingOnEvent";
+import FetchingOnMount from "./components/FetchingOnMount";
+// import FetchingOnEvent from "./components/FetchingOnEvent";
 
 function App() {
   return (
     <>
-      <FetchingOnEvents />
+      {/* <FetchingOnEvent /> */}
+      <FetchingOnMount />
     </>
   );
 }
