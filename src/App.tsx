@@ -1,7 +1,12 @@
 import "./App.css";
+import FetchingOnEvents from "./components/FetchingOnEvent";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <FetchingOnEvents />
+    </>
+  );
 }
 
 export default App;
